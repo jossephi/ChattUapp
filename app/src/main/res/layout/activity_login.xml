@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="ChattU"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2">
+    </LinearLayout>
+    <EditText
+        android:id="@+id/idCorreoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/idContraseñaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/idLoginLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Iniciar Sesión" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnloginGoogle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:hint="Autenticacion con celular"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/idRegistroLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Registrarse"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</LinearLayout>

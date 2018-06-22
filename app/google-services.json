@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1050268612133",
+    "firebase_url": "https://chattu-b2b73.firebaseio.com",
+    "project_id": "chattu-b2b73",
+    "storage_bucket": "chattu-b2b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050268612133:android:dbc6fcdb33a8e76a",
+        "android_client_info": {
+          "package_name": "com.joseph.chattu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050268612133-pgfasajdrn411pnmltanhi9degq2d45j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joseph.chattu",
+            "certificate_hash": "a60200531c347c9dec4925670fe2a55501f31369"
+          }
+        },
+        {
+          "client_id": "1050268612133-k5tfnvjhj2foi5prt9p922l318dmndpo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1050268612133-k5tfnvjhj2foi5prt9p922l318dmndpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqvdOn1nIEJpcWyN17g7VE1fPhzNxDuGc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050268612133-k5tfnvjhj2foi5prt9p922l318dmndpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
